@@ -8,7 +8,7 @@ st.title("Atv 4: RGB")
 st.header("1. Leitura da foto")
 col1, col2 = st.columns(2)
 
-foto = Image.open("Imagens/foto.jpg").convert("RGB")
+foto = Image.open("imagens/foto.jpg").convert("RGB")
 img = np.array(foto)
 
 col1.image(img)
